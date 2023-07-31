@@ -24,9 +24,9 @@ def FizzBuzz(limite:int = 100) -> None:
 
     for i in range(1, limite + 1, 1):
 
-        if i % 15 == 0: i = f'{i} -> FizzBuzz'
-        elif i % 3 == 0: i = f'{i} -> Fizz'
-        elif i % 5 == 0: i = f'{i} -> Buzz'
+        if i % 15 == 0: i = 'FizzBuzz'
+        elif i % 3 == 0: i = 'Fizz'
+        elif i % 5 == 0: i = 'Buzz'
 
         print(i)
 
